@@ -2,7 +2,7 @@
  "name": "flare",
  "children": [
   {
-   "name": "Snazzzzzzzzzzz",
+   "name": "Satisfaction with life",
    "children": [
     {
      "name": "cluster",
@@ -32,7 +32,7 @@
    ]
   },
   {
-   "name": "Saeedddddddddd",
+   "name": "Affect",
    "children": [
     {"name": "Easing", "value": 17010},
     {"name": "FunctionSequence", "value": 5842},
