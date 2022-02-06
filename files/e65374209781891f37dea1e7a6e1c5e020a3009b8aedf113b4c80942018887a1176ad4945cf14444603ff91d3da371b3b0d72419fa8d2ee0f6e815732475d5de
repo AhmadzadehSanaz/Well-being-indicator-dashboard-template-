@@ -7,20 +7,20 @@
     {
      "name": "The sense of life/the best to worst",
      "children": [
-      {"name": "AgglomerativeCluster", "value": 3938},
-      {"name": "CommunityStructure", "value": 3812},
-      {"name": "HierarchicalCluster", "value": 6714},
-      {"name": "MergeEdge", "value": 743}
+      {"name": "...", "value": 3938},
+      {"name": "...", "value": 3812},
+      {"name": "...", "value": 6714},
+      {"name": "...", "value": 743}
      ]
     },
     {
      "name": "Satisfaction with life as a whole",
      "children": [
-      {"name": "BetweennessCentrality", "value": 3534},
-      {"name": "LinkDistance", "value": 5731},
-      {"name": "MaxFlowMinCut", "value": 7840},
-      {"name": "ShortestPaths", "value": 5914},
-      {"name": "SpanningTree", "value": 3416}
+      {"name": "...", "value": 3534},
+      {"name": "...", "value": 5731},
+      {"name": "...", "value": 7840},
+      {"name": "...", "value": 5914},
+      {"name": "...", "value": 3416}
      ]
     },
     {
@@ -114,11 +114,11 @@
   {
    "name": "Economy",
    "children": [
-    {"name": "...", "value": 1616},
-    {"name": "Rich Poor Gap or Gini Index", "value": 1027},
-    {"name": "How often a family goes without enough food", "value": 3891},
-    {"name": "Degree to which one is worried about losing their job", "value": 891},
-    {"name": "The area where one lives is a good place to live for entrepreneurs", "value": 2893},
+    {"name": "Standard of living", "value": 1616},
+    {"name": "Economic equity and equality", "value": 1027},
+    {"name": "Jobs", "value": 3891},
+    {"name": "Natural resources, consumption & production", "value": 891},
+    {"name": "Business and entrepreneurship", "value": 2893},
     {"name": "...", "value": 5103},
     {"name": "...", "value": 3677},
     {"name": "...", "value": 781},
@@ -133,7 +133,7 @@
     {"name": "...", "value": 3748},
     {"name": "...", "value": 843},
     {
-     "name": "Satisfaction with the financial situation",
+     "name": "...",
      "children": [
       {"name": "...", "value": 593},
       {"name": "...", "value": 330},
@@ -175,12 +175,12 @@
   {
    "name": "Environment",
    "children": [
-    {"name": "Satisfaction with efforts to preserve the environment", "value": 2105},
-    {"name": "Endangered and threatened species", "value": 1316},
-    {"name": "Habitats protected or restored", "value": 3151},
-    {"name": "...", "value": 3770},
-    {"name": "...", "value": 2435},
-    {"name": "...", "value": 4839},
+    {"name": "Environment general indicators", "value": 2105},
+    {"name": "Climate change", "value": 1316},
+    {"name": "Air", "value": 3151},
+    {"name": "Water", "value": 3770},
+    {"name": "Soil", "value": 2435},
+    {"name": "Biodiversity", "value": 4839},
     {"name": "...", "value": 1756},
     {"name": "...", "value": 4268},
     {"name": "...", "value": 1821},
@@ -190,14 +190,14 @@
   {
    "name": "Government",
    "children": [
-    {"name": "...", "value": 8258},
-    {"name": "...", "value": 10001},
-    {"name": "...", "value": 8217},
-    {"name": "...", "value": 12555},
+    {"name": "Human rights", "value": 8258},
+    {"name": "Institutions", "value": 10001},
+    {"name": "Civic engagement", "value": 8217},
+    {"name": "Trust in government", "value": 12555},
     {"name": "...", "value": 2324},
     {"name": "...", "value": 10993},
     {
-     "name": "Sense there is respect for individual human rights",
+     "name": "...",
      "children": [
       {"name": "...", "value": 9354},
       {"name": "...", "value": 1233}
@@ -207,7 +207,7 @@
     {"name": "...", "value": 383},
     {"name": "...", "value": 874},
     {
-     "name": "Sense of freedom & open public discussion",
+     "name": "...",
      "children": [
       {"name": "...", "value": 3165},
       {"name": "...", "value": 2815},
@@ -217,7 +217,7 @@
     {"name": "...", "value": 17705},
     {"name": "...", "value": 1486},
     {
-     "name": "equality of opportunity",
+     "name": "...",
      "children": [
       {"name": "...", "value": 6367},
       {"name": "...", "value": 1229},
@@ -225,9 +225,9 @@
       {"name": "...", "value": 2291}
      ]
     },
-    {"name": "Laws, policies of the population", "value": 5559},
-    {"name": "pretrial facilities & humane", "value": 19118},
-    {"name": "Satisfaction with public services", "value": 6887},
+    {"name": "...", "value": 5559},
+    {"name": "...", "value": 19118},
+    {"name": "...", "value": 6887},
     {"name": "...", "value": 6557},
     {"name": "...", "value": 22026}
    ]
@@ -236,7 +236,7 @@
    "name": "Health",
    "children": [
     {
-     "name": "Suicide attempts",
+     "name": "Physical health",
      "children": [
       {"name": "...", "value": 1302},
       {"name": "...", "value": 24593},
@@ -246,7 +246,7 @@
      ]
     },
     {
-     "name": "Having a health professional during a year",
+     "name": "Mental health",
      "children": [
       {"name": "...", "value": 2138},
       {"name": "...", "value": 3824},
@@ -264,11 +264,11 @@
     {
      "name": "Human Settlements",
      "children": [
-      {"name": "population covered by a technology", "value": 20544},
-      {"name": "Having a cellular phone", "value": 19788},
-      {"name": "Access to internet at home", "value": 10349},
-      {"name": "Having a computer at home", "value": 3301},
-      {"name": "youth and adults with (ICT)skills", "value": 19382},
+      {"name": "Human settlement general indicators", "value": 20544},
+      {"name": "Housing", "value": 19788},
+      {"name": "Food", "value": 10349},
+      {"name": "Transportation", "value": 3301},
+      {"name": "Information and communications technology (ICT)", "value": 19382},
       {
        "name": "...",
        "children": [
