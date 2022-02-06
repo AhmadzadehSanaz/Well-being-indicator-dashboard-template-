@@ -8,25 +8,20 @@
      "name": "The sense of life/the best to worst",
      "children": [
       {"name": "...", "value": 3938},
-      {"name": "...", "value": 3812},
-      {"name": "...", "value": 6714},
-      {"name": "...", "value": 743}
+      {"name": "...", "value": 3812}
      ]
     },
     {
      "name": "Satisfaction with life as a whole",
      "children": [
       {"name": "...", "value": 3534},
-      {"name": "...", "value": 5731},
-      {"name": "...", "value": 7840},
-      {"name": "...", "value": 5914},
-      {"name": "...", "value": 3416}
+      {"name": "...", "value": 5731}
      ]
     },
     {
      "name": "...",
      "children": [
-      {"name": "AspectRatioBanker", "value": 7074}
+      {"name": "...", "value": 7074}
      ]
     }
    ]
@@ -40,23 +35,10 @@
      "name": "...",
      "children": [
       {"name": "...", "value": 1983},
-      {"name": "...", "value": 2047},
-      {"name": "...", "value": 1375},
-      {"name": "...", "value": 8746},
-      {"name": "...", "value": 2202},
-      {"name": "...", "value": 1382},
-      {"name": "...", "value": 1629},
-      {"name": "...", "value": 1675},
-      {"name": "...", "value": 2042}
+      {"name": "...", "value": 2047}
      ]
     },
     {"name": "...", "value": 1041},
-    {"name": "...", "value": 5176},
-    {"name": "...", "value": 449},
-    {"name": "...", "value": 5593},
-    {"name": "...", "value": 5534},
-    {"name": "...", "value": 9201},
-    {"name": "...", "value": 19975},
     {"name": "...", "value": 1116},
     {"name": "...", "value": 6006}
    ]
@@ -68,17 +50,12 @@
      "name": "Sense of leading a purposeful life",
      "children": [
       {"name": "...", "value": 721},
-      {"name": "...", "value": 4294},
-      {"name": "...", "value": 9800},
-      {"name": "...", "value": 1314},
       {"name": "...", "value": 2220}
      ]
     },
     {"name": "Feeling the things one does are worthwhile", "value": 1759},
     {"name": "Sense of capability at what a person does", "value": 2165},
     {"name": "...", "value": 586},
-    {"name": "...", "value": 3331},
-    {"name": "...", "value": 772},
     {"name": "...", "value": 3322}
    ]
   },
@@ -104,9 +81,6 @@
     {"name": "Formal education", "value": 1082},
     {"name": "Lifelong learning", "value": 1336},
     {"name": "...", "value": 319},
-    {"name": "...", "value": 10498},
-    {"name": "...", "value": 2822},
-    {"name": "....", "value": 9983},
     {"name": "...", "value": 2213},
     {"name": "...", "value": 1681}
    ]
@@ -121,15 +95,6 @@
     {"name": "Business and entrepreneurship", "value": 2893},
     {"name": "...", "value": 5103},
     {"name": "...", "value": 3677},
-    {"name": "...", "value": 781},
-    {"name": "...", "value": 4141},
-    {"name": "...", "value": 933},
-    {"name": "...", "value": 5130},
-    {"name": "...", "value": 3617},
-    {"name": "...", "value": 3240},
-    {"name": "...", "value": 2732},
-    {"name": "...", "value": 2039},
-    {"name": "...", "value": 1214},
     {"name": "...", "value": 3748},
     {"name": "...", "value": 843},
     {
@@ -137,24 +102,6 @@
      "children": [
       {"name": "...", "value": 593},
       {"name": "...", "value": 330},
-      {"name": "...", "value": 287},
-      {"name": "...", "value": 277},
-      {"name": "...", "value": 292},
-      {"name": "...", "value": 595},
-      {"name": "...", "value": 594},
-      {"name": "...", "value": 460},
-      {"name": "...", "value": 603},
-      {"name": "...", "value": 625},
-      {"name": "...", "value": 748},
-      {"name": "...", "value": 461},
-      {"name": "...", "value": 597},
-      {"name": "...", "value": 619},
-      {"name": "...", "value": 283},
-      {"name": "...", "value": 283},
-      {"name": "...", "value": 591},
-      {"name": "...", "value": 603},
-      {"name": "...", "value": 599},
-      {"name": "...", "value": 386},
       {"name": "...", "value": 323},
       {"name": "...", "value": 354},
       {"name": "_", "value": 264}
@@ -162,13 +109,6 @@
     },
     {"name": "...", "value": 843},
     {"name": "...", "value": 1554},
-    {"name": "...", "value": 970},
-    {"name": "...", "value": 13896},
-    {"name": "...", "value": 1594},
-    {"name": "...", "value": 4130},
-    {"name": "...", "value": 791},
-    {"name": "...", "value": 1124},
-    {"name": "...", "value": 1876},
     {"name": "...", "value": 1101}
    ]
   },
@@ -183,7 +123,6 @@
     {"name": "Biodiversity", "value": 4839},
     {"name": "...", "value": 1756},
     {"name": "...", "value": 4268},
-    {"name": "...", "value": 1821},
     {"name": "...", "value": 5833}
    ]
   },
@@ -220,15 +159,11 @@
      "name": "...",
      "children": [
       {"name": "...", "value": 6367},
-      {"name": "...", "value": 1229},
-      {"name": "...", "value": 2059},
       {"name": "...", "value": 2291}
      ]
     },
     {"name": "...", "value": 5559},
     {"name": "...", "value": 19118},
-    {"name": "...", "value": 6887},
-    {"name": "...", "value": 6557},
     {"name": "...", "value": 22026}
    ]
   },
@@ -240,8 +175,6 @@
      "children": [
       {"name": "...", "value": 1302},
       {"name": "...", "value": 24593},
-      {"name": "...", "value": 652},
-      {"name": "...", "value": 636},
       {"name": "...", "value": 6703}
      ]
     },
@@ -249,15 +182,6 @@
      "name": "Mental health",
      "children": [
       {"name": "...", "value": 2138},
-      {"name": "...", "value": 3824},
-      {"name": "...", "value": 1353},
-      {"name": "...", "value": 4665},
-      {"name": "...", "value": 2649},
-      {"name": "...", "value": 2832},
-      {"name": "...", "value": 4896},
-      {"name": "...", "value": 763},
-      {"name": "...", "value": 5222},
-      {"name": "...", "value": 7862},
       {"name": "...", "value": 8435}
      ]
     },
@@ -273,8 +197,6 @@
        "name": "...",
        "children": [
         {"name": "...", "value": 698},
-        {"name": "...", "value": 5569},
-        {"name": "...", "value": 353},
         {"name": "...", "value": 2247}
        ]
       },
@@ -287,7 +209,6 @@
      "name": "...",
      "children": [
       {"name": "...", "value": 2313},
-      {"name": "...", "value": 1880},
       {"name": "...", "value": 1701},
       {"name": "...", "value": 1117}
      ]
@@ -316,8 +237,6 @@
        "children": [
         {"name": "...", "value": 3179},
         {"name": "...", "value": 4060},
-        {"name": "...", "value": 4138},
-        {"name": "...", "value": 1690},
         {"name": "...", "value": 1830}
        ]
       },
@@ -334,7 +253,6 @@
        "name": "...",
        "children": [
         {"name": "...", "value": 9956},
-        {"name": "...", "value": 3899},
         {"name": "...", "value": 3202}
        ]
       },
@@ -343,25 +261,12 @@
        "children": [
         {"name": "...", "value": 6725},
         {"name": "...", "value": 3727},
-        {"name": "...", "value": 9317},
-        {"name": "...", "value": 12003},
-        {"name": "...", "value": 4853},
-        {"name": "...", "value": 8411},
-        {"name": "...", "value": 4864},
-        {"name": "...", "value": 3174},
-        {"name": "...", "value": 7881},
-        {"name": "...", "value": 12870},
-        {"name": "...", "value": 2728},
-        {"name": "...", "value": 12348},
-        {"name": "...", "value": 870},
         {"name": "...", "value": 9121},
         {"name": "...", "value": 9191}
        ]
       },
       {"name": "...", "value": 2490},
       {"name": "...", "value": 5248},
-      {"name": "...", "value": 4190},
-      {"name": "...", "value": 2581},
       {"name": "...", "value": 2023}
      ]
     },
