@@ -26,6 +26,7 @@
     }
    ]
   },
+
   {
    "name": "Affect",
    "children": [
@@ -39,10 +40,10 @@
      ]
     },
     {"name": "...", "value": 1041},
-    {"name": "...", "value": 1116},
     {"name": "...", "value": 6006}
    ]
   },
+
   {
    "name": "Psychological well-being",
    "children": [
@@ -59,59 +60,121 @@
     {"name": "...", "value": 3322}
    ]
   },
+  
   {
    "name": "Community",
    "children": [
-    {"name": "Sense of belonging", "value": 8833},
-    {"name": "Community participation", "value": 1732},
-    {"name": "Social support", "value": 3623},
-    {"name": "Community safety", "value": 10066},
-    {"name": "Discrimination", "value": 10066}
+    {
+     "name": "Sense of belonging",
+     "children": [
+        {"name": "Sense of belonging to a neighborhood", "value": 721},
+        {"name": "Sense that one sees oneself as part of a community", "value": 2220}
+     ]
+    }, 
+    {
+     "name": "Community participation",
+     "children": [
+        {"name": "Approximate total hours a month one was active in voluntary organizations", "value": 721},
+        {"name": "Sense that one sees oneself as part of a community", "value": 2220}
+     ]
+    },    
+    {
+     "name": "Social support",
+     "children": [
+        {"name": "Sense that if one were in trouble", "value": 721},
+        {"name": "Satisfaction with relationships", "value": 2220}
+     ]
+    },
+    {
+     "name": "Community safety",
+     "children": [
+        {"name": "Feeling safe walking alone around the area where one lives", "value": 721},
+        {"name": "Sense that most people can be trusted", "value": 2220},
+        {"name": "Crimes against the person per 1000 adults", "value": 2220}
+     ]
+    },
+    {
+     "name": "Discrimination",
+     "children": [
+        {"name": "Proportion of persons who are victims of physical or sexual harassment", "value": 721},
+        {"name": "Sense of discrimination in one’s neighborhood or community", "value": 2220}
+     ]
+    }
    ]
   },
+
   {
    "name": "Culture",
    "children": [
     {"name": "engagement with arts or cultural activity", "value": 4116}
    ]
   },
+
   {
    "name": "Education",
    "children": [
-    {"name": "Formal education", "value": 1082},
-    {"name": "Lifelong learning", "value": 1336},
-    {"name": "...", "value": 319},
-    {"name": "...", "value": 2213},
-    {"name": "...", "value": 1681}
+    {
+     "name": "Formal education",
+     "children": [
+        {"name": "Average years of schooling", "value": 721},
+        {"name": "Satisfaction with educational systems", "value": 2220}
+     ]
+    },    
+    {
+     "name": "Lifelong learning",
+     "children": [
+        {"name": "Access to opportunities to learn", "value": 721},
+        {"name": "Extent to which a) global citizenship education and b) education for sustainable development", "value": 2220}
+     ]
+    },
+    {"name": "...", "value": 1082}
    ]
   },
+
   {
    "name": "Economy",
    "children": [
-    {"name": "Standard of living", "value": 1616},
-    {"name": "Economic equity and equality", "value": 1027},
-    {"name": "Jobs", "value": 3891},
-    {"name": "Natural resources, consumption & production", "value": 891},
-    {"name": "Business and entrepreneurship", "value": 2893},
-    {"name": "...", "value": 5103},
-    {"name": "...", "value": 3677},
-    {"name": "...", "value": 3748},
-    {"name": "...", "value": 843},
     {
-     "name": "...",
+     "name": "Standard of living",
      "children": [
-      {"name": "...", "value": 593},
-      {"name": "...", "value": 330},
-      {"name": "...", "value": 323},
-      {"name": "...", "value": 354},
-      {"name": "_", "value": 264}
+        {"name": "Household Net Financial Wealth", "value": 721},
+        {"name": "Satisfaction with the financial situation of ones household", "value": 721},
+        {"name": "Average gross national income in purchasing power parity", "value": 721},
+        {"name": "Proportion of adults (15 years and older) with an account at a bank or other financial institution", "value": 2220}
      ]
     },
-    {"name": "...", "value": 843},
-    {"name": "...", "value": 1554},
-    {"name": "...", "value": 1101}
+    {
+     "name": "Economic equity and equality",
+     "children": [
+        {"name": "Income inequality or rich-poor gap or Gini index", "value": 721},
+        {"name": "How often a family goes without enough food to eat", "value": 2220}
+     ]
+    },
+    {
+     "name": "Jobs",
+     "children": [
+        {"name": "Unemployment rate, by sex, age, and persons with disabilities", "value": 721},
+        {"name": "Degree to which one is worried about losing their job or not finding a job", "value": 2220}
+     ]
+    },
+    {
+     "name": "Natural resources, consumption & production",
+     "children": [
+        {"name": "Recycling rates", "value": 721},
+        {"name": "Material consumption", "value": 2220}
+     ]
+    },
+    {
+     "name": "Business and entrepreneurship",
+     "children": [
+        {"name": "Proportion of small-scale industries in total industry value added", "value": 721},
+        {"name": "Sense that the area where one lives is a good place to live", "value": 2220}
+     ]
+    },
+    {"name": "...", "value": 1616}
    ]
   },
+
   {
    "name": "Environment",
    "children": [
