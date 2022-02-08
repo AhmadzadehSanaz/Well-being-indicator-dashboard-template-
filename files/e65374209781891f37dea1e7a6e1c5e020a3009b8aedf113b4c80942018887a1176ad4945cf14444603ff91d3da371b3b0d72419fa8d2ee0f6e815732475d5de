@@ -342,7 +342,7 @@
        ]
       },
      {
-     "name": "Information and communications technology (ICT)",
+     "name": "(ICT)",
      "children": [
       {"name": "Proportion of population covered by a mobile network, by technology", "value": 3179},
       {"name": "Proportion of population that has a cellular phone", "value": 4060},
@@ -363,23 +363,36 @@
            {"name": "Diversity of governance bodies and employees", "value": 721},
            {"name": "Identifying and managing economic, environmental, and social", "value": 721},
            {"name": "Operations with local community engagement, impact assessments, and development programs", "value": 721},
-           {"name": "...", "value": 721},
-           {"name": "...", "value": 721},
-           {"name": "...", "value": 2220}
+           {"name": "Operations that have been subject to human rights reviews or impact", "value": 721},
+           {"name": "Mechanisms for advice and concerns about ethics", "value": 721},
+           {"name": "Communication and training about anti-corruption policies and procedures", "value": 2220}
           ]
          },
          {
           "name": "Workplace environment",
           "children": [
-           {"name": "...", "value": 721},
-           {"name": "...", "value": 2220}
+           {"name": "Satisfaction with job", "value": 721},
+           {"name": "Sense that current work life is interesting", "value": 721},
+           {"name": "Sense that ones supervisor has respect for and cares about ones welfare", "value": 721},
+           {"name": "Sense that one gets support and help from coworkers", "value": 721},
+           {"name": "Satisfaction with opportunities for professional development and promotion", "value": 721},
+           {"name": "Sense that the conditions of ones job allows one to be about as productive as one could be", "value": 721},
+           {"name": "Sense of independence one has in performing tasks at work", "value": 721},
+           {"name": "Workers representation in formal joint management worker health and safety committees", "value": 721},
+           {"name": "Satisfaction with salary and benefits in current primary job", "value": 721},
+           {"name": "Ratio of basic salary and remuneration of women to men", "value": 2220},
+           {"name": "Expected earnings loss, measured as the percentage of the previous earnings", "value": 2220},
+           {"name": "Percentage of employees receiving regular performance and career development reviews", "value": 2220},
+           {"name": "Average hours of training per year per employee", "value": 2220},
+           {"name": "Types of injury and rates of injury, occupational diseases, lost days, and absenteeism,", "value": 2220}
           ]
          },
         {
           "name": "Work life balance",
           "children": [
-           {"name": "...", "value": 721},
-           {"name": "...", "value": 2220}
+           {"name": "Satisfaction with the balance between the time spent on the job", "value": 721},
+           {"name": "Proportion of employed people working 50 hours or more a week", "value": 2220},
+           {"name": "Average amount of time spent on leisure time out of doors, away from home in the previous 12 months", "value": 2220}
           ]
          }
         ]
