@@ -129,7 +129,7 @@ d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1))
 d3.format(",d")
 )});
   main.variable(observer("width")).define("width", function(){return(
-932
+1200
 )});
   main.variable(observer("radius")).define("radius", ["width"], function(width){return(
 width / 6
