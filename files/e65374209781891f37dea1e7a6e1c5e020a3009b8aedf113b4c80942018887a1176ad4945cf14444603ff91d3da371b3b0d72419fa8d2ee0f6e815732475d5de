@@ -38,9 +38,7 @@
       {"name": "...", "value": 1983},
       {"name": "...", "value": 2047}
      ]
-    },
-    {"name": "...", "value": 1041},
-    {"name": "...", "value": 6006}
+    }
    ]
   },
 
@@ -178,149 +176,218 @@
   {
    "name": "Environment",
    "children": [
-    {"name": "Environment general indicators", "value": 2105},
-    {"name": "Climate change", "value": 1316},
-    {"name": "Air", "value": 3151},
-    {"name": "Water", "value": 3770},
-    {"name": "Soil", "value": 2435},
-    {"name": "Biodiversity", "value": 4839},
-    {"name": "...", "value": 1756},
-    {"name": "...", "value": 4268},
-    {"name": "...", "value": 5833}
-   ]
-  },
-  {
-   "name": "Government",
-   "children": [
-    {"name": "Human rights", "value": 8258},
-    {"name": "Institutions", "value": 10001},
-    {"name": "Civic engagement", "value": 8217},
-    {"name": "Trust in government", "value": 12555},
-    {"name": "...", "value": 2324},
-    {"name": "...", "value": 10993},
     {
-     "name": "...",
+     "name": "Environment general indicators",
      "children": [
-      {"name": "...", "value": 9354},
-      {"name": "...", "value": 1233}
+        {"name": "Satisfaction with efforts to preserve the environment", "value": 721},
+        {"name": "Non-compliance with environmental laws and regulations", "value": 2220},
+        {"name": "Proportion of urban solid waste", "value": 2220}
      ]
     },
     {
-     "name": "...",
+     "name": "Climate change",
      "children": [
-      {"name": "...", "value": 3165},
-      {"name": "...", "value": 2815},
-      {"name": "...", "value": 3366}
+        {"name": "Reduction of greenhouse gas emissions", "value": 721},
+        {"name": "Reduction of energy consumption", "value": 2220},
+        {"name": "Proportion of population with primary reliance on clean fuels and technology", "value": 2220},
+        {"name": "How much (people) know about global warming or climate change", "value": 2220}
+     ]
+    },
+    {
+     "name": "Air",
+     "children": [
+        {"name": "Degree of satisfaction with the quality of air", "value": 721},
+        {"name": "Annual mean levels of fine particulate matter", "value": 2220}
+     ]
+    },
+    {
+     "name": "Water",
+     "children": [
+        {"name": "Change in water-use efficiency over time", "value": 721},
+        {"name": "Satisfaction with quality of water", "value": 2220},
+        {"name": "Proportion of bodies of water with good ambient water quality", "value": 2220},
+        {"name": "Proportion of wastewater safely treated", "value": 2220},
+        {"name": "Percentage of households with year round access to water", "value": 2220}
+     ]
+    },
+    {
+     "name": "Soil",
+     "children": [
+        {"name": "Crop yield gap: the actual yield as the percentage of attainable yield", "value": 721},
+        {"name": "Nitrogen use efficiency in food systems", "value": 2220},
+        {"name": "Proportion of agricultural area under productive and sustainable agriculture", "value": 2220}
+     ]
+    },
+    {
+     "name": "Biodiversity",
+     "children": [
+        {"name": "Endangered and threatened species", "value": 721},
+        {"name": "Habitats protected or restored", "value": 2220},
+        {"name": "Forest area as a proportion of total land area", "value": 2220}
+     ]
+    },  
+    {"name": "...", "value": 2105}
+   ]
+  },
+  
+  {
+   "name": "Government",
+   "children": [
+    {
+     "name": "Human rights",
+     "children": [
+      {"name": "Sense there is respect for individual human rights at present in ones country", "value": 9354},
+      {"name": "Sense there is freedom of assembly, demonstration, and open public discussion", "value": 9354},
+      {"name": "Sense there is equality of opportunity and the absence of economic exploitation", "value": 9354},
+      {"name": "Victims of human trafficking per 100 000 population, by sex, age", "value": 9354},
+      {"name": "Laws, policies that guarantee equal treatment of various segments of the population", "value": 9354},
+      {"name": "Conditions in pretrial facilities and prisons and humane and respectful treatment", "value": 1233}
+     ]
+    },
+    {
+     "name": "Institutions",
+     "children": [
+      {"name": "Satisfaction with ones last experience of public services", "value": 3165},
+      {"name": "Rule of law prevailing in civil and criminal matters", "value": 2815},
+      {"name": "Registration of voters and candidates conducted in an accurate transparent", "value": 2815},
+      {"name": "Sense that elections are fair", "value": 2815},
+      {"name": "Citizens have the legal right and practical ability to obtain information about government operations", "value": 2815},
+      {"name": "Defendants are given a fair, public, and timely hearing by a competent, independent", "value": 2815},
+      {"name": "Print, broadcast, and/or internet-based media are not directly or indirectly censored", "value": 3366},
+      {"name": "Trade unions are allowed to be established and to operate free from government interference", "value": 3366}
+     ]
+    },
+    {
+     "name": "Civic engagement",
+     "children": [
+      {"name": "Voter turnout", "value": 9354},
+      {"name": "Cultural, ethnic, religious, or other minority groups have full political rights", "value": 9354},
+      {"name": "Attendance of peaceful demonstrations in the last year", "value": 9354},
+      {"name": "Signing a petition(s) in the last year", "value": 9354},
+      {"name": "People have the right to organize in different political parties", "value": 1233}
+     ]
+    },
+    {
+     "name": "Trust in government",
+     "children": [
+      {"name": "Sense of confidence in government—national, local, civil service, judicial system.", "value": 9354},
+      {"name": "Sense that government is free from pervasive corruption", "value": 1233}
      ]
     },
     {"name": "...", "value": 22026}
    ]
   },
+
   {
    "name": "Health",
    "children": [
     {
      "name": "Physical health",
      "children": [
-      {"name": "...", "value": 1302},
-      {"name": "...", "value": 24593},
-      {"name": "...", "value": 6703}
+      {"name": "Healthy life expectancy", "value": 1302},
+      {"name": "Sense that ones state of health is good", "value": 24593},
+      {"name": "Sense of having enough energy to get things done", "value": 1302},
+      {"name": "Satisfaction with quality of health care", "value": 1302},
+      {"name": "Obesity in adults and adolescents", "value": 1302},
+      {"name": "Out-of-pocket payment for health", "value": 1302},
+      {"name": "Coverage of essential health services: defined as the average coverage of essential services", "value": 6703},
+      {"name": "Proportion of women of reproductive age (aged 15 to 49 years) who have their need for family planning", "value": 6703}
      ]
     },
     {
      "name": "Mental health",
      "children": [
-      {"name": "...", "value": 2138},
-      {"name": "...", "value": 8435}
+      {"name": "Coverage of services for severe mental health disorders", "value": 2138},
+      {"name": "Suicide attempts", "value": 2138},
+      {"name": "Number of persons who have seen a health professional during a year", "value": 2138},
+      {"name": "Projects to support parenting skills", "value": 2138},
+      {"name": "Lost workdays due to mental disorder or substance use", "value": 8435}
      ]
-    },
+    }
+   ]
+  },
+
     {
      "name": "Human Settlements",
      "children": [
-      {"name": "Human settlement general indicators", "value": 20544},
-      {"name": "Housing", "value": 19788},
-      {"name": "Food", "value": 10349},
-      {"name": "Transportation", "value": 3301},
-      {"name": "Information and communications technology (ICT)", "value": 19382},
-      {
-       "name": "...",
-       "children": [
-        {"name": "...", "value": 698},
-        {"name": "...", "value": 2247}
-       ]
-      },
-      {"name": "...", "value": 11275},
-      {"name": "...", "value": 7147},
-      {"name": "...", "value": 9930}
+    {
+      "name": "Human settlement general indicators",
+      "children": [
+      {"name": "Area of public and green space as a proportion of total city space", "value": 698},
+      {"name": "Satisfaction with beauty or physical setting", "value": 2247},
+      {"name": "Proportion of population living in households with access to basic services", "value": 2247}
      ]
     },
     {
-     "name": "...",
+     "name": "Housing",
      "children": [
-      {"name": "...", "value": 2313},
-      {"name": "...", "value": 1701},
-      {"name": "...", "value": 1117}
+      {"name": "Satisfaction with quality of housing", "value": 2313},
+      {"name": "Satisfaction with availability of good affordable housing", "value": 1701},
+      {"name": "Proportion of urban population living in slums, informal settlements", "value": 1117}
      ]
     },
     {
-     "name": "...",
+     "name": "Food",
      "children": [
-      {"name": "...", "value": 20859},
-      {"name": "...", "value": 4614},
-      {"name": "...", "value": 10530}
+      {"name": "Prevalence of undernourishment", "value": 20859},
+      {"name": "Secure access to food", "value": 4614}
      ]
     },
     {
-     "name": "...",
+     "name": "Transportation",
      "children": [
-      {
-       "name": "...",
-       "children": [
-        {"name": "...", "value": 4461},
-        {"name": "...", "value": 6314},
-        {"name": "...", "value": 3444}
+      {"name": "Proportion of population that has convenient access to public transport, by sex, age", "value": 4461},
+      {"name": "Satisfaction with transportation system in the city or area one lives", "value": 6314},
+      {"name": "Death rate due to road traffic injuries", "value": 3444}
        ]
       },
-      {
-       "name": "...",
-       "children": [
-        {"name": "...", "value": 3179},
-        {"name": "...", "value": 4060},
-        {"name": "...", "value": 1830}
+     {
+     "name": "Information and communications technology (ICT)",
+     "children": [
+      {"name": "Proportion of population covered by a mobile network, by technology", "value": 3179},
+      {"name": "Proportion of population that has a cellular phone", "value": 4060},
+      {"name": "Proportion of population that has access to the internet at home", "value": 4060},
+      {"name": "Proportion of population that has a computer at home", "value": 4060},
+      {"name": "Proportion of youth and adults with (ICT)", "value": 1830}
        ]
-      },
-      {
-       "name": "...",
-       "children": [
-        {"name": "...", "value": 5219},
-        {"name": "...", "value": 3165},
-        {"name": "...", "value": 3509}
-       ]
-      },
-      {"name": "...", "value": 1286},
-      {
-       "name": "...",
-       "children": [
-        {"name": "...", "value": 9956},
-        {"name": "...", "value": 3202}
-       ]
-      },
-      {
-       "name": "...",
-       "children": [
-        {"name": "...", "value": 6725},
-        {"name": "...", "value": 3727},
-        {"name": "...", "value": 9121},
-        {"name": "...", "value": 9191}
-       ]
-      },
-      {"name": "...", "value": 2490},
-      {"name": "...", "value": 5248},
-      {"name": "...", "value": 2023}
+      }
      ]
     },
-    {"name": "...", "value": 16540}
+
+    {
+    "name": "Work",
+        "children": [
+         {
+          "name": "Workplace governance",
+          "children": [
+           {"name": "Diversity of governance bodies and employees", "value": 721},
+           {"name": "Identifying and managing economic, environmental, and social", "value": 721},
+           {"name": "Operations with local community engagement, impact assessments, and development programs", "value": 721},
+           {"name": "...", "value": 721},
+           {"name": "...", "value": 721},
+           {"name": "...", "value": 2220}
+          ]
+         },
+         {
+          "name": "Workplace environment",
+          "children": [
+           {"name": "...", "value": 721},
+           {"name": "...", "value": 2220}
+          ]
+         },
+        {
+          "name": "Work life balance",
+          "children": [
+           {"name": "...", "value": 721},
+           {"name": "...", "value": 2220}
+          ]
+         }
+        ]
+       }
+
+
+
    ]
   }
- ]
-}
+ 
+
