@@ -5,7 +5,7 @@
    "name": "Satisfaction with life",
    "children": [
     {
-     "name": "The sense of life/the best to worst",
+     "name": "The sense that one’s life is the best to worst possible life for them at the time",
      "children": [
       {"name": "...", "value": 3938},
       {"name": "...", "value": 3812}
@@ -30,8 +30,8 @@
   {
    "name": "Affect",
    "children": [
-    {"name": "Positive affects: feeling happy", "value": 17010},
-    {"name": "Negative affects: feeling sad", "value": 5842},
+    {"name": "Positive affects: feeling happy, calm, peaceful, etc", "value": 17010},
+    {"name": "Negative affects: feeling sad, depressed, anxious, etc", "value": 5842},
     {
      "name": "...",
      "children": [
@@ -46,14 +46,14 @@
    "name": "Psychological well-being",
    "children": [
     {
-     "name": "Sense of leading a purposeful life",
+     "name": "Sense that one leads a purposeful and meaningful life",
      "children": [
       {"name": "...", "value": 721},
       {"name": "...", "value": 2220}
      ]
     },
-    {"name": "Feeling the things one does are worthwhile", "value": 1759},
-    {"name": "Sense of capability at what a person does", "value": 2165},
+    {"name": "Feeling that the things one does are worthwhile", "value": 1759},
+    {"name": "Sense one is capable and good at what they do", "value": 2165},
     {"name": "...", "value": 586},
     {"name": "...", "value": 3322}
    ]
@@ -79,7 +79,7 @@
     {
      "name": "Social support",
      "children": [
-        {"name": "Sense that if one were in trouble", "value": 721},
+        {"name": "Sense that if one were in trouble, they would have relatives or friends they can count on to help them whenever they need them, or not", "value": 721},
         {"name": "Satisfaction with relationships", "value": 2220}
      ]
     },
@@ -87,7 +87,7 @@
      "name": "Community safety",
      "children": [
         {"name": "Feeling safe walking alone around the area where one lives", "value": 721},
-        {"name": "Sense that most people can be trusted", "value": 2220},
+        {"name": "Sense that most people can be trusted or that one needs to be very careful in dealing with people", "value": 2220},
         {"name": "Crimes against the person per 1000 adults", "value": 2220}
      ]
     },
@@ -95,7 +95,7 @@
      "name": "Discrimination",
      "children": [
         {"name": "Proportion of persons who are victims of physical or sexual harassment", "value": 721},
-        {"name": "Sense of discrimination in one’s neighborhood or community", "value": 2220}
+        {"name": "Sense of discrimination in ones neighborhood or community", "value": 2220}
      ]
     }
    ]
