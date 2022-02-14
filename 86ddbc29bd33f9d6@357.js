@@ -129,10 +129,10 @@ d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1))
 d3.format(",d")
 )});
   main.variable(observer("width")).define("width", function(){return(
-1200
+1800
 )});
   main.variable(observer("radius")).define("radius", ["width"], function(width){return(
-width / 6
+width / 8
 )});
   main.variable(observer("arc")).define("arc", ["d3","radius"], function(d3,radius){return(
 d3.arc()
