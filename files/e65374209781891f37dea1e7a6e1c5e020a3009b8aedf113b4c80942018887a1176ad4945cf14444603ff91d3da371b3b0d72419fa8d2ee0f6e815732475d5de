@@ -5,7 +5,7 @@
    "name": "Satisfaction with life",
    "children": [
     {
-     "name": "The sense that one’s life is the best to worst possible life for them at the time",
+     "name": "The sense of life is the best to worst possible",
      "children": [
       {"name": "...", "value": 3938},
       {"name": "...", "value": 3812}
@@ -30,8 +30,8 @@
   {
    "name": "Affect",
    "children": [
-    {"name": "Positive affects: feeling happy, calm, peaceful, etc", "value": 17010},
-    {"name": "Negative affects: feeling sad, depressed, anxious, etc", "value": 5842},
+    {"name": "Positive affects:feeling happy, calm, peaceful", "value": 17010},
+    {"name": "Negative affects:feeling sad, depressed, anxious", "value": 5842},
     {
      "name": "...",
      "children": [
