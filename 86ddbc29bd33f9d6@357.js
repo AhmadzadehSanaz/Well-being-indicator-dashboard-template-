@@ -14,9 +14,13 @@ The variant of this diagram shows only two layers of the hierarchy at a time. Cl
 
   root.each(d => d.current = d);
 
+
   const svg = d3.create("svg")
       .attr("viewBox", [0, 0, width, width])
-      .style("font", "9px sans-serif");
+      .style("font", "13px sans-serif");
+  const hidden_element = svg.append('svg')
+      .attr('id', 'hidden_elem')
+      .style('visibility', 'hidden');
 
   const g = svg.append("g")
       .attr("transform", `translate(${width / 2},${width / 2})`);
@@ -43,12 +47,18 @@ The variant of this diagram shows only two layers of the hierarchy at a time. Cl
       .attr("text-anchor", "middle")
       .style("user-select", "none")
     .selectAll("text")
-    .data(root.descendants().slice(1))
+    .data( function(d){
+      return root.descendants().slice(1)
+    })
     .join("text")
       .attr("dy", "0.35em")
+
       .attr("fill-opacity", d => +labelVisible(d.current))
       .attr("transform", d => labelTransform(d.current))
-      .text(d => d.data.name);
+      .attr('xx', d=>labelX(d.current))
+      .attr('yy',d=>labelY(d.current))
+      .text(d => d.data.name)
+      .call(wrap, width/8);
 
   const parent = g.append("circle")
       .datum(root)
@@ -91,6 +101,45 @@ The variant of this diagram shows only two layers of the hierarchy at a time. Cl
         .attr("fill-opacity", d => +labelVisible(d.target))
         .attrTween("transform", d => () => labelTransform(d.current));
   }
+  function wrap(text, width) {
+
+    text.each(function () {
+        var text = d3.select(this),
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 9,
+            lineHeight = 0, // ems
+            myx = text.attr("xx"),
+            myy = text.attr("yy"),
+            dy = 0, //parseFloat(text.attr("dy")),
+            tspan = text.text(null)
+                        .append("tspan")
+                        .attr('trasform', `rotate(${myx - 90})  rotate(${myx < 180 ? 0 : 180})`)
+                        // .attr("x", x)
+                        // .attr("y", y)
+                        // .attr("dy", dy + "em");
+
+        while (word = words.pop()) {
+            line.push(word);
+            tspan.text(line.join(" "));
+
+            if (line.length > 4) {
+                line.pop();
+                tspan.text(line.join(" "));
+                line = [word];
+                // console.log(myx)
+
+                tspan = text.append("tspan")
+                            .attr("x", 0)
+                            // .attr("y", myy)
+                            .attr('trasform', `rotate(${myx - 90})  rotate(${myx < 180 ? 0 : 180})`)
+                            .attr("dy", ++lineNumber)
+                            .text(word);
+            }
+        }
+    });
+}
   
   function arcVisible(d) {
     return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
@@ -99,7 +148,13 @@ The variant of this diagram shows only two layers of the hierarchy at a time. Cl
   function labelVisible(d) {
     return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
   }
-
+  function labelX(d){
+    // console.log((d.x0 + d.x1) / 2 * 180 / Math.PI)
+    return (d.x0 + d.x1) / 2 * 180 / Math.PI;
+  }
+  function labelY(d){
+    return (d.y0 + d.y1) / 2 * radius;
+  }
   function labelTransform(d) {
     const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
     const y = (d.y0 + d.y1) / 2 * radius;
