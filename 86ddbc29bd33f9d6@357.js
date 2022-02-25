@@ -17,7 +17,7 @@ The variant of this diagram shows only two layers of the hierarchy at a time. Cl
 
   const svg = d3.create("svg")
       .attr("viewBox", [0, 0, width, width])
-      .style("font", "13px sans-serif");
+      .style("font", "12px sans-serif");
   const hidden_element = svg.append('svg')
       .attr('id', 'hidden_elem')
       .style('visibility', 'hidden');
