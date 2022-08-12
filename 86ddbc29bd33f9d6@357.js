@@ -17,13 +17,13 @@ The variant of this diagram shows only two layers of the hierarchy at a time. Cl
 
   const svg = d3.create("svg")
       .attr("viewBox", [0, 0, width, width])
-      .style("font", "12px sans-serif");
+      .style("font", "9px sans-serif");
   const hidden_element = svg.append('svg')
       .attr('id', 'hidden_elem')
       .style('visibility', 'hidden');
 
   const g = svg.append("g")
-      .attr("transform", `translate(${width / 2},${width / 2})`);
+      .attr("transform", `translate(${width / 4},${width / 4})`);
 
   const path = g.append("g")
     .selectAll("path")
@@ -187,7 +187,7 @@ d3.format(",d")
 1800
 )});
   main.variable(observer("radius")).define("radius", ["width"], function(width){return(
-width / 8
+width / 13
 )});
   main.variable(observer("arc")).define("arc", ["d3","radius"], function(d3,radius){return(
 d3.arc()
@@ -196,7 +196,7 @@ d3.arc()
     .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
     .padRadius(radius * 1.5)
     .innerRadius(d => d.y0 * radius)
-    .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1))
+    .outerRadius(d => Math.max(d.y0 * radius*1.55, d.y1 * radius - 1))
 )});
   return main;
 }
